@@ -12,6 +12,7 @@ const Header = () => {
   return (
     <div>
       <img className='headline-image' src="https://global.oup.com/education/promotional/images/children/childrens_picbooks_header_Nov12.jpg" alt="" />
+      <div className="nav-container">
       <nav className="nav-links">
       <Link to="/">
             <IoLogoTux color="white" size= "25px" /><br/>LogIn
@@ -31,7 +32,9 @@ const Header = () => {
       <Link to="/bookList">
             <SiAwesomelists color="white" size= "25px" /><br/>My Book List
         </Link>
+        
       </nav>
+      </div>
     </div>
   )
 }

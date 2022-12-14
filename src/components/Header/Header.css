@@ -15,5 +15,15 @@
     padding-bottom: 50px;
     justify-content: space-around;
     margin-left: 20px;
-    margin-right: 20px;    
+    margin-right: 20px;  
+    font-size: 16pt;
+    color: white; 
+    -webkit-text-stroke: 3px rgb(0, 0, 0);
+ 
+}
+
+.nav-container {
+    color: white; 
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+
 }
