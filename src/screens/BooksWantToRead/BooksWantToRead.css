@@ -1,0 +1,27 @@
+h1{
+     display: flex;
+     font-family: fantasy;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+     color: white;
+}
+
+/* books-want-to-read-title{
+     font-family: fantasy;
+     font-weight: bold;
+} */
+
+img{
+     height: 200px; 
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.book-btn {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}

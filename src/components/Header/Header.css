@@ -1,0 +1,19 @@
+.headline-image{
+    display: flex;
+    flex-direction: row;
+    opacity: 40%;
+    width: auto;
+    width: 100vw;
+    height: 125px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;    
+}

@@ -1,0 +1,216 @@
+body {
+    background-color: grey;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+:root{
+    --primary-color: #3473a7;
+    --secondary-color: #727171;
+}
+
+body{
+    background-color: var(--secondary-color);
+}
+
+html{
+    font-size: 75.5%;
+}
+
+.header{
+    width: 100%;
+    height: 500px;
+    color: var(--primary-color);
+    box-shadow: 0 5px 10px var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 20pt;
+}
+
+.header-img {
+    display: flex;
+    width: 75vw;
+    flex-direction: row;
+    height: 125px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row2{
+    position: absolute;
+    top: 10px;
+    right: 150px;
+    text-align: center;
+}
+
+.row2 h2{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.row2 img{
+    margin-top: 30px;
+    width: 250px;
+}
+
+.row1 h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-left: 35px;
+    font-family: 'Bubblegum Sans', cursive;
+    
+}
+
+/* .header ::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../src/images/are-you-my-mother.jpg');
+    clip-path: circle(60% at left 300px);
+    z-index: -1;
+
+} */
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input {
+    outline: 0;
+    border: 0;
+    width: 350px;
+    height: 35px;
+    padding: 0 0.5rem;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.search button{
+    outline: none;
+    border: none;
+    height: 35px;
+    padding: 0 0.5rem;
+
+}
+
+.container{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 20px;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 5px rgb(112, 145, 160);
+    transition: .5s;
+    text-align: center;
+    position: relative;
+    width: 200px;
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 1rem 1 rem 0 0;
+    display: flex;
+    
+}
+
+.card bottom{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .bottom .title{
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.card .bottom .amount{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: var(--secondary-color);
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0.2rem;
+    color: white;
+}
+
+.favorite-container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+/* .favorite-container .card{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+    border-radius: 1rem 1 rem 0 0;
+} */
+
+.add-another-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 20px;
+    width: 200px;
+    margin-left: 10px ;
+    box-shadow: 0 5px 5px rgb(112, 145, 160);
+
+    
+    
+}
+
+.book-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.books-want-to-read-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.books-want-to-read-container h1{
+display: flex;
+justify-content: center;
+align-items: center;
+}
